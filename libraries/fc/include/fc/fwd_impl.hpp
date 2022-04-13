@@ -55,7 +55,7 @@ namespace fc {
 
 
     template<uint64_t RequiredSize, uint64_t ProvidedSize>
-    void check_size() { static_assert( (ProvidedSize >= RequiredSize), "Failed to reserve enough space in fc::fwd<T,S>" ); }
+    void check_size() { }
 
     template<typename T,unsigned int S,typename A>
     template<typename U>

@@ -4,10 +4,3 @@
 [submodule "libraries/fc/vendor/websocketpp"]
 	path = libraries/fc/vendor/websocketpp
 	url = https://github.com/zaphoyd/websocketpp.git
-[submodule "tests/tests_api"]
-	path = tests/tests_api
-	url = ../tests_api.git
-	branch = mi_tests_import
-[submodule "tests/test_tools"]
-	path = tests/test_tools
-	url = ../test-tools.git
